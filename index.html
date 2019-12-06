@@ -10,52 +10,100 @@
 <head>
     <title> Warner's Sabio Jr </title>
     <style>
+         /*span{
+            padding:1px
+        } */
         p{
             color:white;
+            font-family: monospace; 
+            padding: 1%;
         }
         li {
             border-bottom: 4px dotted white;
         }
-        #product1
-        {
-            border: 4px white dotted;
-        }
-        header {
-            background-color: black
-        }
-        .border 
+        #thickSolidWhiteEffect, .thickSolidWhiteEffect
         {
             border: thick solid white;
+            background-color: black;
+        }
+        body 
+        {
+            background: url(https://media.giphy.com/media/13d58oCMZJu62I/giphy.gif);
+        }
+        a {
+            font-family: monospace;
+            text-decoration: bold;
+            font-weight:200;
+        }
+        
+        a:link {
+            color:aqua;
+        }
+        a:visited {
+            color:oldlace;
+        }
+        a:hover {
+            text-decoration-style: dashed;
+            text-decoration: line-through;
+            color: aliceblue;
+            font-family: monospace;
+        }
+        a:active {
+            font-weight:400;
+        }
+        p, product1, footer{
+            background-color: black;
+            color:black; 
+            height:100%;
+            text-align: center;
+            padding: 30px, 10px, 20px, 10px;
         }
     </style>
 </head>
     
-<body background="https://media.giphy.com/media/13d58oCMZJu62I/giphy.gif">
+<body>
     <header>
-        <h1 class="border" style="color:white" id="product1"> Warner Sabio Jr </h1>
+        <h1><span style="color:white; font-family: monospace" class="thickSolidWhiteEffect">Warner Sabio Jr</span></h1>
     </header>
         
-        <section>
-        <article class="border" id="Hey-There!">
+<section>
+        <article>
             <div id="product1">
-                <h2 style="color:white"> <strong> Hey There! </strong></h2>
-                    <p style="color:white" background:"black">This Website is meant to chronicle my progress through the html/css portion of my software guild training.</p>
+                <h2 style="text-align: center; font-family: monospace">
+                    <span style="color:white" class="thickSolidWhiteEffect">
+                        <strong> Hey There! </strong>
+                    </span>
+                </h2>
+                    <p style="text-align: end">
+                        <span style="color:white" class="thickSolidWhiteEffect">This Website is meant to chronicle my progress through the html/css portion of my software guild training.</span>
+                    </p>
             </div>
     </article> 
 </section>
     
     
+    <div>
+        <p><span style="color:white" class="thickSolidWhiteEffect"><a href="MyPortfolio/index.html" target="_blank"><strong>My Portfolio</strong></a></span> </p>
+    </div>   
     
-    <hr style="width: 50%; border: 2px dotted white;" />
-        <p style="color:white"><a href="MyPortfolio/index.html" target="_blank"><strong>My Portfolio</strong></a> </p>
-        <p style="color:white"><a href="https://github.com/Warnersabiojr" target="_blank"><strong>My Github</strong></a> </p>
-        <p style="color:white"><a href="https://warnersabiojr.home.blog/" target="_blank"><strong>My Blog</strong></a> </p>
-        <p style="color:white"><a href="restaurant/index.html" target="_blank"><strong>My Restaurant HTML</strong></a> </p>
-    <hr style="border: thin dotted white;" />
-        
-    <footer style="color:white">
+<div>
+    <p style="align-self: flex-start"><span style="color:white" class="thickSolidWhiteEffect"><a href="https://github.com/Warnersabiojr" target="_blank"><strong>My Github</strong></a></span> </p>
+</div>   
+    
+    <div>
+        <p><span style="color:white" class="thickSolidWhiteEffect"><a href="https://warnersabiojr.home.blog/" target="_blank"><strong>My Blog</strong></a></span> </p>
+    </div>
+    
+<div>
+    <p><span style="color:white" class="thickSolidWhiteEffect"><a href="restaurant/index.html" target="_blank"><strong>My Restaurant HTML</strong></a></span></p>
+</div>
+    
+    <footer>
+        <span class="thickSolidWhiteEffect" style="color:white; font-family: 'monospace', courier">
         &copy; 2018 The Software Guild, All rights reserved.
+        </span>
     </footer>
+
 </body>
 
 </html>
