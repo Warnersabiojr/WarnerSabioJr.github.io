@@ -4,20 +4,117 @@
 
     
 <head>
+<!-- Page Styles -->
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+        p{
+            color:white;
+            font-family: monospace; 
+            padding: 1%;
+        }
+        
+        li {
+            border-bottom: 4px dotted white;
+        }
+        
+        #thickSolidWhiteEffect, .thickSolidWhiteEffect {
+            background: url("https://media.giphy.com/media/1lITncGcyl3qM/giphy.gif");
+            border: thick solid white;
+            opacity: 0.6;
+            filter: alpha(opacity=90);
+
+        }
+        
+        body {
+            background: url(https://media.giphy.com/media/13d58oCMZJu62I/giphy.gif);
+        }
+        
+        
+        a {
+            font-family: monospace;
+            text-decoration: bold;
+            font-weight:200;
+        }
+        
+        a:link {
+            color:aqua;
+        }
+        a:visited {
+            color:oldlace;
+        }
+        a:hover {
+            text-decoration-style: dashed;
+            text-decoration: line-through;
+            color: aliceblue;
+            font-family: monospace;
+        }
+        a:active {
+            font-weight:400;
+        }
+        p, header, footer{
+            font-family: monospace;
+            font-size: 20px;
+        }
+    </style>
+<!--Page Styles Ending-->
     <title>Hobbies</title>
 </head>
     
 <body background="https://media.giphy.com/media/13d58oCMZJu62I/giphy.gif">
-    <header>
-    <h1 style="color:white">Hobbies</h1>
-    </header>
-       
+<header>
+<h1 style="color:white">
+    Hobbies
+</h1>
+</header>
+          <div class="gallery">
+  <a target="_blank" href="Images/WarnerPhoto.jpg">
+    <img src="Images/WarnerPhoto.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Images/WarnerPhoto.jpg">
+    <img src="Images/WarnerPhoto.jpg" alt="Forest" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Images/WarnerPhoto.jpg">
+    <img src="Images/WarnerPhoto.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Images/WarnerPhoto.jpg">
+    <img src="Images/WarnerPhoto.jpg" alt="Mountains" width="600" height="400">
+  </a>
+</div>
     <section> 
         <article id="Hobbies">
             <hr />
                 <div>
                    <img src="Images/WarnerPhoto.jpg" alt="photo-of-warner"/>
-                    <p style="color:white">HOBBIES/INTERESTS Sustainabilty and Green Space.Community Activism/ Organizing.Visual Art.
+                    <p style="color:white">
+                        HOBBIES/INTERESTS Sustainabilty and Green Space.Community Activism/ Organizing.Visual Art.
                     </p>
                 </div>
             <hr />
