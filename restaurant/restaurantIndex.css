@@ -1,0 +1,51 @@
+p{
+color:white;
+font-family: monospace; 
+padding: 1%;
+}
+
+body {
+background: url(https://media.giphy.com/media/13d58oCMZJu62I/giphy.gif);
+max-width: 900px;
+margin: 0 auto;
+}
+
+
+a {
+font-family: monospace;
+text-decoration: bold;
+font-weight:200;
+}
+
+a:link {
+color:aqua;
+}
+a:visited {
+color:oldlace;
+}
+a:hover {
+text-decoration-style: dashed;
+text-decoration: line-through;
+color: aliceblue;
+font-family: monospace;
+}
+a:active {
+font-weight:400;
+}
+p, header, footer{
+font-family: monospace;
+font-size: 20px;
+}
+img {
+padding: 10px;
+}
+h1, h3{
+text-decoration: underline;
+padding: 10px;
+}
+div{
+border: thick solid white;
+}
+a{
+    padding-left: 40px;
+}
